@@ -45,30 +45,30 @@ footer: "吉娃娃不要狗叫"
 
 | Generate |
 | :--- |
-| + `Generate`<br> + `void generator`<br> + `get_board`<br> + `check_rep`<br> + `board_put`|
-| - `new_board[][]`<br> - `i,j,k,l` |
+| + `Generate()`<br> + `void generator()`<br> + `vector<int > get_board()`<br> + `bool check_rep(vector<int>,int,int)`<br> + `bool board_put(vector<int>&)`|
+| - `int new_board[][]`<br> - `int i,j,k,l` |
 
 
 ---
 
 | Blank |
 | :-- |
-| + |
-| - |
+| + `void receive_board(vector <int>)`<br> + `void hole_board(int)` <br> + `vector<int> return_board()`|
+| - `vector<int> revise_board`<br> - `int Hollow_quantity`|
 
 ---
 
 | FillBlank |
 | :--|
-| + |
-| - |
+| + `FillBlank()`<br> + `FillBlank(int,int,int)`<br> + `void setX(int)` `setY(int)` `void setN(int)`<br> + `int getX()` `int getY()` `int getN()`|
+| - `void receive_board(vector <int >)`<br> - `vector<int > fill()`<br> - `void get_board()`<br> - `vector<int> return_board()`|
 
 ---
 
 | Answer |
 | :--|
-| + |
-| - |
+| + `void receive_original_board(vector <int >)`<br> + `void receive_revise_board(vector <int >)`<br> + `bool comparison()`<br> + `void get_board()`|
+| - `vector<int > original_board`<br> - `vector<int > revise_board`|
 
 ---
 
@@ -101,3 +101,7 @@ footer: "吉娃娃不要狗叫"
 
 分工資訊
 ---
+
+王正坤:編輯程式
+王翌權:ppt製作、報告
+沈柏瑋:編輯程式b
