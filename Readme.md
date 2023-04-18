@@ -13,7 +13,7 @@ footer: "吉娃娃不要狗叫"
 第一次<br> 數獨報告
 === 
 
-![bg right 60%](/Users/zhengkun/程式/VScode_C++/小專題/數獨.png)
+![bg right 60%](數獨.png)
 
 ---
 
