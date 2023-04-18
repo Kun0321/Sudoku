@@ -10,10 +10,10 @@ footer: "吉娃娃不要狗叫"
 <!-- _paginate: false -->
 <!--_backgroundColor: lightBlue -->
 
-第一次 數獨報告
+第一次<br> 數獨報告
 === 
 
-![bg right 60%](/Users/zhengkun/程式/VScode_C++/小專題/數獨.svg.png)
+![bg right 60%](/Users/zhengkun/程式/VScode_C++/小專題/數獨.png)
 
 ---
 
@@ -44,30 +44,31 @@ footer: "吉娃娃不要狗叫"
 ---
 
 | Generate |
-| :-------- |
-| - `SudokuGen` | 
-| + `print` |
+| :--- |
+| + `Generate`<br> + `void generator`<br> + `get_board`<br> + `check_rep`<br> + `board_put`|
+| - `new_board[][]`<br> - `i,j,k,l` |
 
 
 ---
 
-|Blank|
+| Blank |
 | :-- |
-|-|
-|+|
+| + |
+| - |
 
 ---
 
-|FillBlank|
+| FillBlank |
 | :--|
-|-|
-|+|
+| + |
+| - |
 
 ---
-|Answer|
+
+| Answer |
 | :--|
-|-|
-|+|
+| + |
+| - |
 
 ---
 
