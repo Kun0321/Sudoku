@@ -15,5 +15,4 @@ public:
     int getN() const;
 
 };
-
 #endif
