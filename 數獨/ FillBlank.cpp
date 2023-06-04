@@ -63,6 +63,19 @@ vector<int > FillBlank::fill(){
     return fill_board;
 }
 
+void FillBlank::get_board(){
+    for( int i=0 ;i < fill_board.size() ; i++ ){
+        if(i == 27 || i == 54) cout<<"------+-------+------"<<endl;
+        cout << fill_board[i] << ' ';
+        if( i%9==2 || i %9==5) cout<<"| ";
+        
+        if((i+1) % 9 == 0){
+            cout << endl;
+       }
+    }
+    cout << endl;
+}
+
 vector<int> FillBlank::return_board(){
     return fill_board;
 }
