@@ -1,13 +1,10 @@
-#include <iostream>
-#include <vector>
 #include "Generate.h"
 #include "Blank.h"
 #include"FillBlank.h"
 #include "Answer.h"
-
+#include <iostream>
+#include <vector>
 using namespace std;
-
-void print_board(vector <int >);
 
 int main(){
     Generate NewBoard; // 產生棋盤物件
