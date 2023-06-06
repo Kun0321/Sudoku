@@ -4,10 +4,11 @@ FillBlank::FillBlank(){
     x=y=number=0;
 }//x,y,n都設初始值
 FillBlank::FillBlank(int nX,int nY,int nNumber){
-    x=nX;
-    y=nY;
-    number=nNumber;
-}//x軸，y軸，填入的數字
+    setX(nX);
+    setY(nY);
+    setN(nNumber);
+}
+//x軸，y軸，填入的數字
 void FillBlank::setX(int nX){
     x=nX;
 }
